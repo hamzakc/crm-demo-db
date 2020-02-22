@@ -1,97 +1,91 @@
 {
-  "subjects": {
-    "meta": {
-      "page": 1,
-      "total_pages": 2,
-      "per_page": 2
+  "meta": { "page": 1, "total_pages": 2, "per_page": 2},
+  "subjects": [
+    {
+      "id": 1,
+      "title": "Islamic Studies",
+      "description": "Description goes here ... ... ...",
+      "classes": [
+        {
+          "title": "Year 8 Boys",
+          "code": "IS-A1",
+          "last_lesson": "01/01/2017",
+          "year": "8",
+          "children_count": 15,
+          "gender": "M",
+          "teachers": [
+            {
+              "id": "id-1",
+              "name": "Teacher 1"
+            },
+            {
+              "id": "id-2",
+              "name": "Teacher 2"
+            }
+          ]
+        },
+        {
+          "title": "Year 8 Girls",
+          "code": "IS-A2",
+          "last_lesson": "01/02/2017",
+          "year": "8",
+          "children_count": 10,
+          "gender": "F",
+          "teachers": [
+            {
+              "id": "id-3",
+              "name": "Teacher 3"
+            },
+            {
+              "id": "id-4",
+              "name": "Teacher 4"
+            }
+          ]
+        }
+      ]
     },
-    "results": [
-      {
-        "id": 1,
-        "title": "Islamic Studies",
-        "description": "Description goes here ... ... ...",
-        "classes": [
-          {
-            "title": "Year 8 Boys",
-            "code": "IS-A1",
-            "last_lesson": "01/01/2017",
-            "year": "8",
-            "children_count": 15,
-            "gender": "M",
-            "teachers": [
-              {
-                "id": "id-1",
-                "name": "Teacher 1"
-              },
-              {
-                "id": "id-2",
-                "name": "Teacher 2"
-              }
-            ]
-          },
-          {
-            "title": "Year 8 Girls",
-            "code": "IS-A2",
-            "last_lesson": "01/02/2017",
-            "year": "8",
-            "children_count": 10,
-            "gender": "F",
-            "teachers": [
-              {
-                "id": "id-3",
-                "name": "Teacher 3"
-              },
-              {
-                "id": "id-4",
-                "name": "Teacher 4"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": 1,
-        "title": "Madrasah",
-        "description": "Description goes here ... ... ...",
-        "classes": [
-          {
-            "title": "Year 6 Boys",
-            "code": "S-A3",
-            "last_lesson": "01/01/2017",
-            "year": "7",
-            "children_count": 15,
-            "gender": "M",
-            "teachers": [
-              {
-                "id": "id-5",
-                "name": "Teacher 5"
-              },
-              {
-                "id": "id-6",
-                "name": "Teacher 6"
-              }
-            ]
-          },
-          {
-            "title": "Year 5 Girls",
-            "code": "S-A4",
-            "last_lesson": "01/02/2017",
-            "year": "18",
-            "children_count": 10,
-            "gender": "F",
-            "teachers": [
-              {
-                "id": "id-3",
-                "name": "Teacher 3"
-              },
-              {
-                "id": "id-2",
-                "name": "Teacher 4"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "id": 1,
+      "title": "Madrasah",
+      "description": "Description goes here ... ... ...",
+      "classes": [
+        {
+          "title": "Year 6 Boys",
+          "code": "S-A3",
+          "last_lesson": "01/01/2017",
+          "year": "7",
+          "children_count": 15,
+          "gender": "M",
+          "teachers": [
+            {
+              "id": "id-5",
+              "name": "Teacher 5"
+            },
+            {
+              "id": "id-6",
+              "name": "Teacher 6"
+            }
+          ]
+        },
+        {
+          "title": "Year 5 Girls",
+          "code": "S-A4",
+          "last_lesson": "01/02/2017",
+          "year": "18",
+          "children_count": 10,
+          "gender": "F",
+          "teachers": [
+            {
+              "id": "id-3",
+              "name": "Teacher 3"
+            },
+            {
+              "id": "id-2",
+              "name": "Teacher 4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
